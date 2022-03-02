@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+
+<title>About</title>
+
+<style>
+body {font-family: "Lato", sans-serif}
+h1 {font-family: "Montserrat", sans-serif}
+
+
+
+.header-background {
+    background-image: url('content/background.png') ;
+    color:#ffffff;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+
+}
+.header-judul{
+    margin:16px;
+    font-size:64px;
+    text-align: center;
+}
+.header-font-nama{
+    font-size:24px;
+    text-align: center;
+    margin-bottom:40px;
+}
+#header-button{
+    margin-left:45%;
+    border:none;
+    display:inline-block;
+    padding:8px 16px;
+    text-align:center;
+    cursor:pointer;
+    color:#000;
+    background-color:#fff;
+    padding:12px;
+    font-size:18px;
+    margin-top:16px;
+    white-space:normal;
+}
+body header{
+    display: block;
+    font-family: "Lato";
+}
+
+   
+
+body {
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    color:#fff;
+    line-height: 1.5;
+    background-color:#000;
+}
+
+ul.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+ul.horizontal li {
+    float: left;
+}
+ul.horizontal li a.active {
+    background-color: #4CAF50;
+}
+.Homies{
+  background-color: #4CAF50;
+}
+ul.horizontal li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    
+}
+.flip-card {
+  background-color: transparent;
+  width: 400px;
+  height: 300px;
+  perspective: 1000px;
+  margin-top:10%;
+  margin-left:35%;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #262626;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.isi-identitas h1{
+text-align:center;
+}
+.isi-penjelasan h1{
+  text-align:center;
+}
+.isi-identitas p {
+font-size:17px;
+margin-left:2%;
+}
+.isi-penjelasan p{
+  font-size:15px;
+}
+.isi-identitas li{
+  font-size:17px;
+  
+}
+.paragraf-1{
+  background-image: url('content/moon.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:bottom;
+  background-size:60%;
+  
+}
+.fb{
+text-decoration:none;
+color:#fff;
+border-style: solid;
+border-width: 5px;
+border-color:#4267B2;
+background-color:#4267B2;
+}
+.ig{
+text-decoration:none;
+color:#fff;
+border-style: solid;
+border-width: 5px;
+border-color:#fccc63;
+background-color:#fccc63;
+}
+.wa{	
+text-decoration:none;
+color:#fff;
+border-style: solid;
+border-width: 5px;
+border-color:#25D366;
+background-color:#25D366;
+}
+</style>
+<body>
+
+<!-- Navbar -->
+  <ul class="horizontal">
+  <li><a class="active" href="#">About</a></li>
+  <li><a href="project.php">Project</a></li>
+  <li><a href="Contact.php">Contact</a></li>
+  <li style="float:right"><a class="Homies" href="index.php">Home</a></li>
+  </ul>
+
+
+<!-- Header -->
+<header class=" header-background" style="padding:128px 16px">
+  <h1 class="header-judul">About Me</h1>
+  <p class="header-font-nama">Kamal Shamlan</p>
+</header>
+
+<!-- Paragraf 1 -->
+<div class="paragraf-1">
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="content/avatar.PNG" alt="Avatar" style="width:400px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Kamal Shamlan</h1> 
+      <p>Student</p> 
+      <p>Loves Music and Film</p>
+    </div>
+  </div>
+</div>
+<div class="isi-identitas">
+<h1>Hello! I am Kamal Shamlan, Let me introduce my self.</h1>
+<div class="isi-profile">
+<h2>My Profile:</h2>
+<li>Name        : Kamal Shamlan</li>
+<li>Place/Date  : Tegal, 1 September 2003</li>
+<li>Gender      : Male</li>
+<li>School      : SMK Telekomunikasi Tunas Harapan</li>
+<li>Religion    : Moslem</li>
+<li>Address     : Pasar Anyar, Kauman Kidul,  Sidoredjo, Salatiga</li>
+<li>Major       : Software Engenering</li>
+<li>E-mail       : paswodnyals@gmail.com</li>
+<div class="isi-pendidikan">
+<h2>My Education:</h2>
+<li>SD Muhammadiyah Salatiga</li>
+<p>2009 - 2015</p>
+<li>SMP Muhammadiyah Salatiga</li>
+<p>2015 - 2018</p>
+<li>SMK Telekomunikasi Tunas Harapan</li>
+<p>2018 – Now</p>
+<div class="isi-pengalaman">
+<h2>My Experience:</h2>
+<p>attended an internship at Educa Studio</p>
+</div></div></div></div></div>
+
+<!-- Paragraf 2 -->
+<div class="isi-penjelasan">
+<h1>Who am I?<h1>
+<p>A boy who likes listening to music and watching movies,
+ was born on 1 September 2003 and having dreams to becoming a pirate king like Luffy in One Piece.</p>
+</div>
+
+<!-- Footer -->
+<footer class="footer">  
+ <center><p>&copy;Kamal dibuat dengan senang hati</p></center>
+</footer>
+
+
+</body>
+</html>
